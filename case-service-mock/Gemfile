@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gem 'rake'    # to add a task for running tests
+
+gem 'sinatra' # to drive the web service
+
+# Include the test suites from our local gem
+#   (or wherever the spec gem is stored)
+gem 'case-service-spec', path: File.expand_path('../case-service-spec')
