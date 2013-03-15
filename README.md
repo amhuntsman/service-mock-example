@@ -30,8 +30,8 @@ _case-service-mock_, which implements the service based on the test by simply
 producing the expected responses.
 
 _case-service-spec_ is where most of the interesting work is done. The tests
-are written using (minitest)[https://github.com/seattlerb/minitest] and
-(rack-test)[https://github.com/brynary/rack-test], though any testing
+are written using [minitest](https://github.com/seattlerb/minitest) and
+[rack-test](https://github.com/brynary/rack-test), though any testing
 framework will do, preferably one which integrates with an existing CI
 solution. The actual tests are kept in the /lib/case_service/spec/tests
 directory. Two responses are tested for: a simple "hello" message, and a list
